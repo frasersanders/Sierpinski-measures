@@ -124,7 +124,7 @@ for i in str(start):
     if i not in "- :.":
         string+=i
 print(string)
-filename="C:\\Users\\frase\\Documents\\Fractal Project\\graphs\\"+string+".png"
+filename=string+".png"
 plt.savefig(filename)
 plt.show()
 
